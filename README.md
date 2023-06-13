@@ -10,4 +10,4 @@ Info: This project shows the number of words and number of characters of the Use
 ## Responsive design 🔥
 ### Responsive on all devices :iphone: :computer: :desktop_computer:
 
-🔥[Live link](js-word-count-ur.vercel.app)🔥
+🔥[Live link](https://js-word-count-ur.vercel.app/)🔥
