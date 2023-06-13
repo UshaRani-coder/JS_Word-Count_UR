@@ -6,7 +6,7 @@ function count(){
     //number of words
     let wordsSplit = inputTextArea.value.trim().split(" ");
     const totalWords = wordsSplit.filter((e)=>{
-       if(e !== " "){
+       if((e !== " ") && (e !== "\n")){
             return e;
         }
     })
@@ -19,7 +19,6 @@ function count(){
    console.log(charsSplit);
    const totalChars = charsSplit.filter((e)=>{
     if((e !== " ") && (e !== "\n")){
-        console.log(e);
          return e;
      }
  })
